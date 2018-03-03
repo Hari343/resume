@@ -48,8 +48,7 @@ const work = {
 			let formattedDescription = `<p><br>${job.description}</p>`
 			$('.work-entry:last').append(formattedEmployer + formattedJobTitle + formattedDates + formattedLocation + formattedDescription);
 		});
-	}
-};
+	}};
 
 const projects = {
 	projects: [{
@@ -60,7 +59,7 @@ const projects = {
         images: ["images/jelly.jpg"]
 	}, {
 		title: "CSS Calculator",
-		url:"https://hari343.github.io/css_calculator/";
+		url:"https://hari343.github.io/css_calculator/",
 		dates:"Feb 2018",
 		description: "\"Design\" is very important for a front-end developer. CSS calculator has a nice flat design & smooth animations. I\'ve designed the CSS calculator to be fully responsive so that it looks beautiful even in the relatively small display of a smartphone.",
 		images: ["images/calc.png"]
