@@ -48,7 +48,8 @@ const work = {
 			let formattedDescription = `<p><br>${job.description}</p>`
 			$('.work-entry:last').append(formattedEmployer + formattedJobTitle + formattedDates + formattedLocation + formattedDescription);
 		});
-	}};
+	}
+};
 
 const projects = {
 	projects: [{
@@ -61,7 +62,7 @@ const projects = {
 		title: "CSS Calculator",
 		url:"https://hari343.github.io/css_calculator/",
 		dates:"Feb 2018",
-		description: "\"Design\" is very important for a front-end developer. CSS calculator has a nice flat design & smooth animations. I\'ve designed the CSS calculator to be fully responsive so that it looks beautiful even in the relatively small display of a smartphone.",
+		description: "\"Design\" is very important for a front-end developer. CSS calculator has a nice flat design & smooth animations. I\'ve designed this app to be fully responsive so that it looks beautiful even in the relatively small display of a smartphone.",
 		images: ["images/calc.png"]
 	}, {
 		title: "This!",
@@ -87,6 +88,12 @@ const projects = {
 		dates: "Jan 2018",
 		description: "This Jasmine based project tests a simple RSS feed reader app provided by Udacity to check whether its working as it should.",
 		images: ["images/jasmine.png"]
+	}, {
+		title: "Tone Generator",
+		url: "https://hari343.github.io/tone_generator/",
+		dates: "Feb 2018",
+		description: "This app can generate sine, square, triangle & saw-tooth waves at the specified frequency right on the browser itself using the Web Audio API. Web Audio is simply awesome!",
+		images: ["images/webAudio.png"]
 	}],
 	
 	display: function() {
